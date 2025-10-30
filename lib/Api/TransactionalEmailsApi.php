@@ -248,7 +248,7 @@ class TransactionalEmailsApi
 
 
 
-        // body params
+        // body ?params
         $_tempBody = null;
         if (isset($blockDomain)) {
             $_tempBody = $blockDomain;
@@ -530,7 +530,7 @@ class TransactionalEmailsApi
 
 
 
-        // body params
+        // body ?params
         $_tempBody = null;
         if (isset($smtpTemplate)) {
             $_tempBody = $smtpTemplate;
@@ -783,7 +783,7 @@ class TransactionalEmailsApi
             );
         }
 
-        // body params
+        // body ?params
         $_tempBody = null;
 
         if ($multipart) {
@@ -1019,7 +1019,7 @@ class TransactionalEmailsApi
 
 
 
-        // body params
+        // body ?params
         $_tempBody = null;
         if (isset($deleteHardbounces)) {
             $_tempBody = $deleteHardbounces;
@@ -1280,7 +1280,7 @@ class TransactionalEmailsApi
             );
         }
 
-        // body params
+        // body ?params
         $_tempBody = null;
 
         if ($multipart) {
@@ -1538,7 +1538,7 @@ class TransactionalEmailsApi
             );
         }
 
-        // body params
+        // body ?params
         $_tempBody = null;
 
         if ($multipart) {
@@ -1842,7 +1842,7 @@ class TransactionalEmailsApi
         }
 
 
-        // body params
+        // body ?params
         $_tempBody = null;
 
         if ($multipart) {
@@ -2102,7 +2102,7 @@ class TransactionalEmailsApi
 
 
 
-        // body params
+        // body ?params
         $_tempBody = null;
 
         if ($multipart) {
@@ -2476,7 +2476,7 @@ class TransactionalEmailsApi
         }
 
 
-        // body params
+        // body ?params
         $_tempBody = null;
 
         if ($multipart) {
@@ -2832,7 +2832,7 @@ class TransactionalEmailsApi
             );
         }
 
-        // body params
+        // body ?params
         $_tempBody = null;
 
         if ($multipart) {
@@ -3145,7 +3145,7 @@ class TransactionalEmailsApi
             );
         }
 
-        // body params
+        // body ?params
         $_tempBody = null;
 
         if ($multipart) {
@@ -3483,7 +3483,7 @@ class TransactionalEmailsApi
         }
 
 
-        // body params
+        // body ?params
         $_tempBody = null;
 
         if ($multipart) {
@@ -3778,7 +3778,7 @@ class TransactionalEmailsApi
             );
         }
 
-        // body params
+        // body ?params
         $_tempBody = null;
 
         if ($multipart) {
@@ -4089,7 +4089,7 @@ class TransactionalEmailsApi
         }
 
 
-        // body params
+        // body ?params
         $_tempBody = null;
 
         if ($multipart) {
@@ -4421,7 +4421,7 @@ class TransactionalEmailsApi
         }
 
 
-        // body params
+        // body ?params
         $_tempBody = null;
 
         if ($multipart) {
@@ -4700,7 +4700,7 @@ class TransactionalEmailsApi
             );
         }
 
-        // body params
+        // body ?params
         $_tempBody = null;
 
         if ($multipart) {
@@ -5047,7 +5047,7 @@ class TransactionalEmailsApi
         }
 
 
-        // body params
+        // body ?params
         $_tempBody = null;
 
         if ($multipart) {
@@ -5316,7 +5316,7 @@ class TransactionalEmailsApi
             );
         }
 
-        // body params
+        // body ?params
         $_tempBody = null;
         if (isset($sendTestEmail)) {
             $_tempBody = $sendTestEmail;
@@ -5606,7 +5606,7 @@ class TransactionalEmailsApi
 
 
 
-        // body params
+        // body ?params
         $_tempBody = null;
         if (isset($sendSmtpEmail)) {
             $_tempBody = $sendSmtpEmail;
@@ -5867,7 +5867,7 @@ class TransactionalEmailsApi
             );
         }
 
-        // body params
+        // body ?params
         $_tempBody = null;
 
         if ($multipart) {
@@ -6125,7 +6125,7 @@ class TransactionalEmailsApi
             );
         }
 
-        // body params
+        // body ?params
         $_tempBody = null;
 
         if ($multipart) {
@@ -6394,7 +6394,7 @@ class TransactionalEmailsApi
             );
         }
 
-        // body params
+        // body ?params
         $_tempBody = null;
         if (isset($smtpTemplate)) {
             $_tempBody = $smtpTemplate;

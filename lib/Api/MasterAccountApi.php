@@ -70,9 +70,9 @@ class MasterAccountApi
      * @param HeaderSelector  $selector
      */
     public function __construct(
-        ClientInterface $client = null,
-        Configuration $config = null,
-        HeaderSelector $selector = null
+        ?ClientInterface $client = null,
+        ?Configuration $config = null,
+        ?HeaderSelector $selector = null
     ) {
         $this->client = $client ?: new Client();
         $this->config = $config ?: new Configuration();
@@ -267,7 +267,7 @@ class MasterAccountApi
             );
         }
 
-        // body params
+        // body ?params
         $_tempBody = null;
         if (isset($body)) {
             $_tempBody = $body;
@@ -549,7 +549,7 @@ class MasterAccountApi
 
 
 
-        // body params
+        // body ?params
         $_tempBody = null;
         if (isset($body)) {
             $_tempBody = $body;
@@ -820,7 +820,7 @@ class MasterAccountApi
 
 
 
-        // body params
+        // body ?params
         $_tempBody = null;
 
         if ($multipart) {
@@ -1118,7 +1118,7 @@ class MasterAccountApi
         }
 
 
-        // body params
+        // body ?params
         $_tempBody = null;
 
         if ($multipart) {
@@ -1387,7 +1387,7 @@ class MasterAccountApi
             );
         }
 
-        // body params
+        // body ?params
         $_tempBody = null;
         if (isset($toggleApplications)) {
             $_tempBody = $toggleApplications;
@@ -1632,7 +1632,7 @@ class MasterAccountApi
             );
         }
 
-        // body params
+        // body ?params
         $_tempBody = null;
 
         if ($multipart) {
@@ -1911,7 +1911,7 @@ class MasterAccountApi
             );
         }
 
-        // body params
+        // body ?params
         $_tempBody = null;
 
         if ($multipart) {
@@ -2180,7 +2180,7 @@ class MasterAccountApi
             );
         }
 
-        // body params
+        // body ?params
         $_tempBody = null;
         if (isset($updatePlanDetails)) {
             $_tempBody = $updatePlanDetails;
@@ -2462,7 +2462,7 @@ class MasterAccountApi
 
 
 
-        // body params
+        // body ?params
         $_tempBody = null;
         if (isset($createApiKeyRequest)) {
             $_tempBody = $createApiKeyRequest;
@@ -2744,7 +2744,7 @@ class MasterAccountApi
 
 
 
-        // body params
+        // body ?params
         $_tempBody = null;
         if (isset($subAccountCreate)) {
             $_tempBody = $subAccountCreate;
@@ -3034,7 +3034,7 @@ class MasterAccountApi
 
 
 
-        // body params
+        // body ?params
         $_tempBody = null;
         if (isset($ssoTokenRequest)) {
             $_tempBody = $ssoTokenRequest;
@@ -3287,7 +3287,7 @@ class MasterAccountApi
             );
         }
 
-        // body params
+        // body ?params
         $_tempBody = null;
 
         if ($multipart) {
@@ -3598,7 +3598,7 @@ class MasterAccountApi
         }
 
 
-        // body params
+        // body ?params
         $_tempBody = null;
 
         if ($multipart) {
@@ -3866,7 +3866,7 @@ class MasterAccountApi
 
 
 
-        // body params
+        // body ?params
         $_tempBody = null;
 
         if ($multipart) {
@@ -4134,7 +4134,7 @@ class MasterAccountApi
 
 
 
-        // body params
+        // body ?params
         $_tempBody = null;
 
         if ($multipart) {
@@ -4413,7 +4413,7 @@ class MasterAccountApi
 
 
 
-        // body params
+        // body ?params
         $_tempBody = null;
         if (isset($sendInvitation)) {
             $_tempBody = $sendInvitation;

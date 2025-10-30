@@ -70,9 +70,9 @@ class WhatsAppCampaignsApi
      * @param HeaderSelector  $selector
      */
     public function __construct(
-        ClientInterface $client = null,
-        Configuration $config = null,
-        HeaderSelector $selector = null
+        ?ClientInterface $client = null,
+        ?Configuration $config = null,
+        ?HeaderSelector $selector = null
     ) {
         $this->client = $client ?: new Client();
         $this->config = $config ?: new Configuration();
@@ -285,7 +285,7 @@ class WhatsAppCampaignsApi
 
 
 
-        // body params
+        // body ?params
         $_tempBody = null;
         if (isset($whatsAppCampaigns)) {
             $_tempBody = $whatsAppCampaigns;
@@ -567,7 +567,7 @@ class WhatsAppCampaignsApi
 
 
 
-        // body params
+        // body ?params
         $_tempBody = null;
         if (isset($whatsAppTemplates)) {
             $_tempBody = $whatsAppTemplates;
@@ -828,7 +828,7 @@ class WhatsAppCampaignsApi
             );
         }
 
-        // body params
+        // body ?params
         $_tempBody = null;
 
         if ($multipart) {
@@ -1123,7 +1123,7 @@ class WhatsAppCampaignsApi
             );
         }
 
-        // body params
+        // body ?params
         $_tempBody = null;
 
         if ($multipart) {
@@ -1443,7 +1443,7 @@ class WhatsAppCampaignsApi
         }
 
 
-        // body params
+        // body ?params
         $_tempBody = null;
 
         if ($multipart) {
@@ -1711,7 +1711,7 @@ class WhatsAppCampaignsApi
 
 
 
-        // body params
+        // body ?params
         $_tempBody = null;
 
         if ($multipart) {
@@ -2040,7 +2040,7 @@ class WhatsAppCampaignsApi
         }
 
 
-        // body params
+        // body ?params
         $_tempBody = null;
 
         if ($multipart) {
@@ -2290,7 +2290,7 @@ class WhatsAppCampaignsApi
             );
         }
 
-        // body params
+        // body ?params
         $_tempBody = null;
 
         if ($multipart) {
@@ -2553,7 +2553,7 @@ class WhatsAppCampaignsApi
             );
         }
 
-        // body params
+        // body ?params
         $_tempBody = null;
         if (isset($whatsAppCampaign)) {
             $_tempBody = $whatsAppCampaign;

@@ -70,9 +70,9 @@ class FoldersApi
      * @param HeaderSelector  $selector
      */
     public function __construct(
-        ClientInterface $client = null,
-        Configuration $config = null,
-        HeaderSelector $selector = null
+        ?ClientInterface $client = null,
+        ?Configuration $config = null,
+        ?HeaderSelector $selector = null
     ) {
         $this->client = $client ?: new Client();
         $this->config = $config ?: new Configuration();
@@ -285,7 +285,7 @@ class FoldersApi
 
 
 
-        // body params
+        // body ?params
         $_tempBody = null;
         if (isset($createFolder)) {
             $_tempBody = $createFolder;
@@ -546,7 +546,7 @@ class FoldersApi
             );
         }
 
-        // body params
+        // body ?params
         $_tempBody = null;
 
         if ($multipart) {
@@ -841,7 +841,7 @@ class FoldersApi
             );
         }
 
-        // body params
+        // body ?params
         $_tempBody = null;
 
         if ($multipart) {
@@ -1167,7 +1167,7 @@ class FoldersApi
             );
         }
 
-        // body params
+        // body ?params
         $_tempBody = null;
 
         if ($multipart) {
@@ -1478,7 +1478,7 @@ class FoldersApi
         }
 
 
-        // body params
+        // body ?params
         $_tempBody = null;
 
         if ($multipart) {
@@ -1747,7 +1747,7 @@ class FoldersApi
             );
         }
 
-        // body params
+        // body ?params
         $_tempBody = null;
         if (isset($updateFolder)) {
             $_tempBody = $updateFolder;

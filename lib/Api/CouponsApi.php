@@ -70,9 +70,9 @@ class CouponsApi
      * @param HeaderSelector  $selector
      */
     public function __construct(
-        ClientInterface $client = null,
-        Configuration $config = null,
-        HeaderSelector $selector = null
+        ?ClientInterface $client = null,
+        ?Configuration $config = null,
+        ?HeaderSelector $selector = null
     ) {
         $this->client = $client ?: new Client();
         $this->config = $config ?: new Configuration();
@@ -293,7 +293,7 @@ class CouponsApi
 
 
 
-        // body params
+        // body ?params
         $_tempBody = null;
         if (isset($createCouponCollection)) {
             $_tempBody = $createCouponCollection;
@@ -554,7 +554,7 @@ class CouponsApi
 
 
 
-        // body params
+        // body ?params
         $_tempBody = null;
         if (isset($createCoupons)) {
             $_tempBody = $createCoupons;
@@ -860,7 +860,7 @@ class CouponsApi
             );
         }
 
-        // body params
+        // body ?params
         $_tempBody = null;
 
         if ($multipart) {
@@ -1182,7 +1182,7 @@ class CouponsApi
         }
 
 
-        // body params
+        // body ?params
         $_tempBody = null;
 
         if ($multipart) {
@@ -1488,7 +1488,7 @@ class CouponsApi
             );
         }
 
-        // body params
+        // body ?params
         $_tempBody = null;
         if (isset($updateCouponCollection)) {
             $_tempBody = $updateCouponCollection;

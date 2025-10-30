@@ -70,9 +70,9 @@ class ExternalFeedsApi
      * @param HeaderSelector  $selector
      */
     public function __construct(
-        ClientInterface $client = null,
-        Configuration $config = null,
-        HeaderSelector $selector = null
+        ?ClientInterface $client = null,
+        ?Configuration $config = null,
+        ?HeaderSelector $selector = null
     ) {
         $this->client = $client ?: new Client();
         $this->config = $config ?: new Configuration();
@@ -285,7 +285,7 @@ class ExternalFeedsApi
 
 
 
-        // body params
+        // body ?params
         $_tempBody = null;
         if (isset($createExternalFeed)) {
             $_tempBody = $createExternalFeed;
@@ -546,7 +546,7 @@ class ExternalFeedsApi
             );
         }
 
-        // body params
+        // body ?params
         $_tempBody = null;
 
         if ($multipart) {
@@ -892,7 +892,7 @@ class ExternalFeedsApi
         }
 
 
-        // body params
+        // body ?params
         $_tempBody = null;
 
         if ($multipart) {
@@ -1187,7 +1187,7 @@ class ExternalFeedsApi
             );
         }
 
-        // body params
+        // body ?params
         $_tempBody = null;
 
         if ($multipart) {
@@ -1456,7 +1456,7 @@ class ExternalFeedsApi
             );
         }
 
-        // body params
+        // body ?params
         $_tempBody = null;
         if (isset($updateExternalFeed)) {
             $_tempBody = $updateExternalFeed;

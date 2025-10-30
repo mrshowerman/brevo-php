@@ -70,9 +70,9 @@ class ResellerApi
      * @param HeaderSelector  $selector
      */
     public function __construct(
-        ClientInterface $client = null,
-        Configuration $config = null,
-        HeaderSelector $selector = null
+        ?ClientInterface $client = null,
+        ?Configuration $config = null,
+        ?HeaderSelector $selector = null
     ) {
         $this->client = $client ?: new Client();
         $this->config = $config ?: new Configuration();
@@ -320,7 +320,7 @@ class ResellerApi
             );
         }
 
-        // body params
+        // body ?params
         $_tempBody = null;
         if (isset($addCredits)) {
             $_tempBody = $addCredits;
@@ -592,7 +592,7 @@ class ResellerApi
             );
         }
 
-        // body params
+        // body ?params
         $_tempBody = null;
         if (isset($ip)) {
             $_tempBody = $ip;
@@ -872,7 +872,7 @@ class ResellerApi
             );
         }
 
-        // body params
+        // body ?params
         $_tempBody = null;
         if (isset($addChildDomain)) {
             $_tempBody = $addChildDomain;
@@ -1156,7 +1156,7 @@ class ResellerApi
 
 
 
-        // body params
+        // body ?params
         $_tempBody = null;
         if (isset($resellerChild)) {
             $_tempBody = $resellerChild;
@@ -1444,7 +1444,7 @@ class ResellerApi
             );
         }
 
-        // body params
+        // body ?params
         $_tempBody = null;
 
         if ($multipart) {
@@ -1710,7 +1710,7 @@ class ResellerApi
             );
         }
 
-        // body params
+        // body ?params
         $_tempBody = null;
 
         if ($multipart) {
@@ -1979,7 +1979,7 @@ class ResellerApi
             );
         }
 
-        // body params
+        // body ?params
         $_tempBody = null;
         if (isset($ip)) {
             $_tempBody = $ip;
@@ -2285,7 +2285,7 @@ class ResellerApi
             );
         }
 
-        // body params
+        // body ?params
         $_tempBody = null;
 
         if ($multipart) {
@@ -2588,7 +2588,7 @@ class ResellerApi
             );
         }
 
-        // body params
+        // body ?params
         $_tempBody = null;
 
         if ($multipart) {
@@ -2891,7 +2891,7 @@ class ResellerApi
             );
         }
 
-        // body params
+        // body ?params
         $_tempBody = null;
 
         if ($multipart) {
@@ -3184,7 +3184,7 @@ class ResellerApi
         }
 
 
-        // body params
+        // body ?params
         $_tempBody = null;
 
         if ($multipart) {
@@ -3487,7 +3487,7 @@ class ResellerApi
             );
         }
 
-        // body params
+        // body ?params
         $_tempBody = null;
 
         if ($multipart) {
@@ -3801,7 +3801,7 @@ class ResellerApi
             );
         }
 
-        // body params
+        // body ?params
         $_tempBody = null;
         if (isset($removeCredits)) {
             $_tempBody = $removeCredits;
@@ -4081,7 +4081,7 @@ class ResellerApi
             );
         }
 
-        // body params
+        // body ?params
         $_tempBody = null;
         if (isset($updateChildAccountStatus)) {
             $_tempBody = $updateChildAccountStatus;
@@ -4380,7 +4380,7 @@ class ResellerApi
             );
         }
 
-        // body params
+        // body ?params
         $_tempBody = null;
         if (isset($updateChildDomain)) {
             $_tempBody = $updateChildDomain;
@@ -4660,7 +4660,7 @@ class ResellerApi
             );
         }
 
-        // body params
+        // body ?params
         $_tempBody = null;
         if (isset($resellerChild)) {
             $_tempBody = $resellerChild;

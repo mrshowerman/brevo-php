@@ -70,9 +70,9 @@ class UserApi
      * @param HeaderSelector  $selector
      */
     public function __construct(
-        ClientInterface $client = null,
-        Configuration $config = null,
-        HeaderSelector $selector = null
+        ?ClientInterface $client = null,
+        ?Configuration $config = null,
+        ?HeaderSelector $selector = null
     ) {
         $this->client = $client ?: new Client();
         $this->config = $config ?: new Configuration();
@@ -285,7 +285,7 @@ class UserApi
 
 
 
-        // body params
+        // body ?params
         $_tempBody = null;
         if (isset($updatePermissions)) {
             $_tempBody = $updatePermissions;
@@ -556,7 +556,7 @@ class UserApi
 
 
 
-        // body params
+        // body ?params
         $_tempBody = null;
 
         if ($multipart) {
@@ -843,7 +843,7 @@ class UserApi
             );
         }
 
-        // body params
+        // body ?params
         $_tempBody = null;
 
         if ($multipart) {
@@ -1122,7 +1122,7 @@ class UserApi
 
 
 
-        // body params
+        // body ?params
         $_tempBody = null;
         if (isset($sendInvitation)) {
             $_tempBody = $sendInvitation;
@@ -1412,7 +1412,7 @@ class UserApi
             );
         }
 
-        // body params
+        // body ?params
         $_tempBody = null;
 
         if ($multipart) {
@@ -1718,7 +1718,7 @@ class UserApi
             );
         }
 
-        // body params
+        // body ?params
         $_tempBody = null;
 
         if ($multipart) {

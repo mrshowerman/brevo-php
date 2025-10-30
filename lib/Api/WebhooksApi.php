@@ -70,9 +70,9 @@ class WebhooksApi
      * @param HeaderSelector  $selector
      */
     public function __construct(
-        ClientInterface $client = null,
-        Configuration $config = null,
-        HeaderSelector $selector = null
+        ?ClientInterface $client = null,
+        ?Configuration $config = null,
+        ?HeaderSelector $selector = null
     ) {
         $this->client = $client ?: new Client();
         $this->config = $config ?: new Configuration();
@@ -285,7 +285,7 @@ class WebhooksApi
 
 
 
-        // body params
+        // body ?params
         $_tempBody = null;
         if (isset($createWebhook)) {
             $_tempBody = $createWebhook;
@@ -546,7 +546,7 @@ class WebhooksApi
             );
         }
 
-        // body params
+        // body ?params
         $_tempBody = null;
 
         if ($multipart) {
@@ -825,7 +825,7 @@ class WebhooksApi
 
 
 
-        // body params
+        // body ?params
         $_tempBody = null;
         if (isset($exportWebhookHistory)) {
             $_tempBody = $exportWebhookHistory;
@@ -1123,7 +1123,7 @@ class WebhooksApi
             );
         }
 
-        // body params
+        // body ?params
         $_tempBody = null;
 
         if ($multipart) {
@@ -1409,7 +1409,7 @@ class WebhooksApi
         }
 
 
-        // body params
+        // body ?params
         $_tempBody = null;
 
         if ($multipart) {
@@ -1678,7 +1678,7 @@ class WebhooksApi
             );
         }
 
-        // body params
+        // body ?params
         $_tempBody = null;
         if (isset($updateWebhook)) {
             $_tempBody = $updateWebhook;

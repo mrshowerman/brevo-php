@@ -70,9 +70,9 @@ class FilesApi
      * @param HeaderSelector  $selector
      */
     public function __construct(
-        ClientInterface $client = null,
-        Configuration $config = null,
-        HeaderSelector $selector = null
+        ?ClientInterface $client = null,
+        ?Configuration $config = null,
+        ?HeaderSelector $selector = null
     ) {
         $this->client = $client ?: new Client();
         $this->config = $config ?: new Configuration();
@@ -337,7 +337,7 @@ class FilesApi
         }
 
 
-        // body params
+        // body ?params
         $_tempBody = null;
 
         if ($multipart) {
@@ -632,7 +632,7 @@ class FilesApi
             );
         }
 
-        // body params
+        // body ?params
         $_tempBody = null;
 
         if ($multipart) {
@@ -890,7 +890,7 @@ class FilesApi
             );
         }
 
-        // body params
+        // body ?params
         $_tempBody = null;
 
         if ($multipart) {
@@ -1185,7 +1185,7 @@ class FilesApi
             );
         }
 
-        // body params
+        // body ?params
         $_tempBody = null;
 
         if ($multipart) {
@@ -1496,7 +1496,7 @@ class FilesApi
         if ($companyId !== null) {
             $formParams['companyId'] = ObjectSerializer::toFormValue($companyId);
         }
-        // body params
+        // body ?params
         $_tempBody = null;
 
         if ($multipart) {

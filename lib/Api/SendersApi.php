@@ -70,9 +70,9 @@ class SendersApi
      * @param HeaderSelector  $selector
      */
     public function __construct(
-        ClientInterface $client = null,
-        Configuration $config = null,
-        HeaderSelector $selector = null
+        ?ClientInterface $client = null,
+        ?Configuration $config = null,
+        ?HeaderSelector $selector = null
     ) {
         $this->client = $client ?: new Client();
         $this->config = $config ?: new Configuration();
@@ -279,7 +279,7 @@ class SendersApi
 
 
 
-        // body params
+        // body ?params
         $_tempBody = null;
         if (isset($sender)) {
             $_tempBody = $sender;
@@ -540,7 +540,7 @@ class SendersApi
             );
         }
 
-        // body params
+        // body ?params
         $_tempBody = null;
 
         if ($multipart) {
@@ -800,7 +800,7 @@ class SendersApi
 
 
 
-        // body params
+        // body ?params
         $_tempBody = null;
 
         if ($multipart) {
@@ -1095,7 +1095,7 @@ class SendersApi
             );
         }
 
-        // body params
+        // body ?params
         $_tempBody = null;
 
         if ($multipart) {
@@ -1381,7 +1381,7 @@ class SendersApi
         }
 
 
-        // body params
+        // body ?params
         $_tempBody = null;
 
         if ($multipart) {
@@ -1644,7 +1644,7 @@ class SendersApi
             );
         }
 
-        // body params
+        // body ?params
         $_tempBody = null;
         if (isset($sender)) {
             $_tempBody = $sender;
@@ -1910,7 +1910,7 @@ class SendersApi
             );
         }
 
-        // body params
+        // body ?params
         $_tempBody = null;
         if (isset($otp)) {
             $_tempBody = $otp;
