@@ -286,7 +286,7 @@ class AttributesApi
             );
         }
 
-        // body ?params
+        // body params
         $_tempBody = null;
         if (isset($createAttribute)) {
             $_tempBody = $createAttribute;
@@ -566,7 +566,7 @@ class AttributesApi
             );
         }
 
-        // body ?params
+        // body params
         $_tempBody = null;
 
         if ($multipart) {
@@ -826,7 +826,7 @@ class AttributesApi
 
 
 
-        // body ?params
+        // body params
         $_tempBody = null;
 
         if ($multipart) {
@@ -1114,7 +1114,7 @@ class AttributesApi
             );
         }
 
-        // body ?params
+        // body params
         $_tempBody = null;
         if (isset($updateAttribute)) {
             $_tempBody = $updateAttribute;

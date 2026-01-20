@@ -353,7 +353,7 @@ class TransactionalWhatsAppApi
         }
 
 
-        // body ?params
+        // body params
         $_tempBody = null;
 
         if ($multipart) {
@@ -632,7 +632,7 @@ class TransactionalWhatsAppApi
 
 
 
-        // body ?params
+        // body params
         $_tempBody = null;
         if (isset($sendWhatsappMessage)) {
             $_tempBody = $sendWhatsappMessage;

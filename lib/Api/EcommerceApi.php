@@ -248,7 +248,7 @@ class EcommerceApi
 
 
 
-        // body ?params
+        // body params
         $_tempBody = null;
         if (isset($orderBatch)) {
             $_tempBody = $orderBatch;
@@ -493,7 +493,7 @@ class EcommerceApi
 
 
 
-        // body ?params
+        // body params
         $_tempBody = null;
         if (isset($order)) {
             $_tempBody = $order;
@@ -775,7 +775,7 @@ class EcommerceApi
 
 
 
-        // body ?params
+        // body params
         $_tempBody = null;
         if (isset($createUpdateBatchCategory)) {
             $_tempBody = $createUpdateBatchCategory;
@@ -1057,7 +1057,7 @@ class EcommerceApi
 
 
 
-        // body ?params
+        // body params
         $_tempBody = null;
         if (isset($createUpdateBatchProducts)) {
             $_tempBody = $createUpdateBatchProducts;
@@ -1339,7 +1339,7 @@ class EcommerceApi
 
 
 
-        // body ?params
+        // body params
         $_tempBody = null;
         if (isset($createUpdateCategory)) {
             $_tempBody = $createUpdateCategory;
@@ -1621,7 +1621,7 @@ class EcommerceApi
 
 
 
-        // body ?params
+        // body params
         $_tempBody = null;
         if (isset($createUpdateProduct)) {
             $_tempBody = $createUpdateProduct;
@@ -1863,7 +1863,7 @@ class EcommerceApi
 
 
 
-        // body ?params
+        // body params
         $_tempBody = null;
 
         if ($multipart) {
@@ -2201,7 +2201,7 @@ class EcommerceApi
         }
 
 
-        // body ?params
+        // body params
         $_tempBody = null;
 
         if ($multipart) {
@@ -2496,7 +2496,7 @@ class EcommerceApi
             );
         }
 
-        // body ?params
+        // body params
         $_tempBody = null;
 
         if ($multipart) {
@@ -2813,7 +2813,7 @@ class EcommerceApi
         }
 
 
-        // body ?params
+        // body params
         $_tempBody = null;
 
         if ($multipart) {
@@ -3108,7 +3108,7 @@ class EcommerceApi
             );
         }
 
-        // body ?params
+        // body params
         $_tempBody = null;
 
         if ($multipart) {
@@ -3512,7 +3512,7 @@ class EcommerceApi
         }
 
 
-        // body ?params
+        // body params
         $_tempBody = null;
 
         if ($multipart) {

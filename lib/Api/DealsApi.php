@@ -266,7 +266,7 @@ class DealsApi
 
 
 
-        // body ?params
+        // body params
         $_tempBody = null;
 
         if ($multipart) {
@@ -597,7 +597,7 @@ class DealsApi
         }
 
 
-        // body ?params
+        // body params
         $_tempBody = null;
 
         if ($multipart) {
@@ -855,7 +855,7 @@ class DealsApi
             );
         }
 
-        // body ?params
+        // body params
         $_tempBody = null;
 
         if ($multipart) {
@@ -1150,7 +1150,7 @@ class DealsApi
             );
         }
 
-        // body ?params
+        // body params
         $_tempBody = null;
 
         if ($multipart) {
@@ -1419,7 +1419,7 @@ class DealsApi
             );
         }
 
-        // body ?params
+        // body params
         $_tempBody = null;
         if (isset($body)) {
             $_tempBody = $body;
@@ -1683,7 +1683,7 @@ class DealsApi
             );
         }
 
-        // body ?params
+        // body params
         $_tempBody = null;
         if (isset($body)) {
             $_tempBody = $body;
@@ -1957,7 +1957,7 @@ class DealsApi
 
 
 
-        // body ?params
+        // body params
         $_tempBody = null;
         if (isset($body)) {
             $_tempBody = $body;
@@ -2228,7 +2228,7 @@ class DealsApi
 
 
 
-        // body ?params
+        // body params
         $_tempBody = null;
 
         if ($multipart) {
@@ -2488,7 +2488,7 @@ class DealsApi
 
 
 
-        // body ?params
+        // body params
         $_tempBody = null;
 
         if ($multipart) {
@@ -2775,7 +2775,7 @@ class DealsApi
             );
         }
 
-        // body ?params
+        // body params
         $_tempBody = null;
 
         if ($multipart) {

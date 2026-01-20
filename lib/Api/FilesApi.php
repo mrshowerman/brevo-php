@@ -337,7 +337,7 @@ class FilesApi
         }
 
 
-        // body ?params
+        // body params
         $_tempBody = null;
 
         if ($multipart) {
@@ -632,7 +632,7 @@ class FilesApi
             );
         }
 
-        // body ?params
+        // body params
         $_tempBody = null;
 
         if ($multipart) {
@@ -890,7 +890,7 @@ class FilesApi
             );
         }
 
-        // body ?params
+        // body params
         $_tempBody = null;
 
         if ($multipart) {
@@ -1185,7 +1185,7 @@ class FilesApi
             );
         }
 
-        // body ?params
+        // body params
         $_tempBody = null;
 
         if ($multipart) {
@@ -1496,7 +1496,7 @@ class FilesApi
         if ($companyId !== null) {
             $formParams['companyId'] = ObjectSerializer::toFormValue($companyId);
         }
-        // body ?params
+        // body params
         $_tempBody = null;
 
         if ($multipart) {

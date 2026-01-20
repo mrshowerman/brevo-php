@@ -312,7 +312,7 @@ class ListsApi
             );
         }
 
-        // body ?params
+        // body params
         $_tempBody = null;
         if (isset($contactEmails)) {
             $_tempBody = $contactEmails;
@@ -594,7 +594,7 @@ class ListsApi
 
 
 
-        // body ?params
+        // body params
         $_tempBody = null;
         if (isset($createList)) {
             $_tempBody = $createList;
@@ -855,7 +855,7 @@ class ListsApi
             );
         }
 
-        // body ?params
+        // body params
         $_tempBody = null;
 
         if ($multipart) {
@@ -1190,7 +1190,7 @@ class ListsApi
             );
         }
 
-        // body ?params
+        // body params
         $_tempBody = null;
 
         if ($multipart) {
@@ -1516,7 +1516,7 @@ class ListsApi
             );
         }
 
-        // body ?params
+        // body params
         $_tempBody = null;
 
         if ($multipart) {
@@ -1811,7 +1811,7 @@ class ListsApi
             );
         }
 
-        // body ?params
+        // body params
         $_tempBody = null;
 
         if ($multipart) {
@@ -2110,7 +2110,7 @@ class ListsApi
         }
 
 
-        // body ?params
+        // body params
         $_tempBody = null;
 
         if ($multipart) {
@@ -2416,7 +2416,7 @@ class ListsApi
             );
         }
 
-        // body ?params
+        // body params
         $_tempBody = null;
         if (isset($contactEmails)) {
             $_tempBody = $contactEmails;
@@ -2688,7 +2688,7 @@ class ListsApi
             );
         }
 
-        // body ?params
+        // body params
         $_tempBody = null;
         if (isset($updateList)) {
             $_tempBody = $updateList;

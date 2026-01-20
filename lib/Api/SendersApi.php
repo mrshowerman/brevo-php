@@ -279,7 +279,7 @@ class SendersApi
 
 
 
-        // body ?params
+        // body params
         $_tempBody = null;
         if (isset($sender)) {
             $_tempBody = $sender;
@@ -540,7 +540,7 @@ class SendersApi
             );
         }
 
-        // body ?params
+        // body params
         $_tempBody = null;
 
         if ($multipart) {
@@ -800,7 +800,7 @@ class SendersApi
 
 
 
-        // body ?params
+        // body params
         $_tempBody = null;
 
         if ($multipart) {
@@ -1095,7 +1095,7 @@ class SendersApi
             );
         }
 
-        // body ?params
+        // body params
         $_tempBody = null;
 
         if ($multipart) {
@@ -1381,7 +1381,7 @@ class SendersApi
         }
 
 
-        // body ?params
+        // body params
         $_tempBody = null;
 
         if ($multipart) {
@@ -1644,7 +1644,7 @@ class SendersApi
             );
         }
 
-        // body ?params
+        // body params
         $_tempBody = null;
         if (isset($sender)) {
             $_tempBody = $sender;
@@ -1910,7 +1910,7 @@ class SendersApi
             );
         }
 
-        // body ?params
+        // body params
         $_tempBody = null;
         if (isset($otp)) {
             $_tempBody = $otp;

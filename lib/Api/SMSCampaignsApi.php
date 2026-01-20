@@ -285,7 +285,7 @@ class SMSCampaignsApi
 
 
 
-        // body ?params
+        // body params
         $_tempBody = null;
         if (isset($createSmsCampaign)) {
             $_tempBody = $createSmsCampaign;
@@ -546,7 +546,7 @@ class SMSCampaignsApi
             );
         }
 
-        // body ?params
+        // body params
         $_tempBody = null;
 
         if ($multipart) {
@@ -841,7 +841,7 @@ class SMSCampaignsApi
             );
         }
 
-        // body ?params
+        // body params
         $_tempBody = null;
 
         if ($multipart) {
@@ -1170,7 +1170,7 @@ class SMSCampaignsApi
         }
 
 
-        // body ?params
+        // body params
         $_tempBody = null;
 
         if ($multipart) {
@@ -1470,7 +1470,7 @@ class SMSCampaignsApi
             );
         }
 
-        // body ?params
+        // body params
         $_tempBody = null;
         if (isset($recipientExport)) {
             $_tempBody = $recipientExport;
@@ -1739,7 +1739,7 @@ class SMSCampaignsApi
             );
         }
 
-        // body ?params
+        // body params
         $_tempBody = null;
 
         if ($multipart) {
@@ -2008,7 +2008,7 @@ class SMSCampaignsApi
             );
         }
 
-        // body ?params
+        // body params
         $_tempBody = null;
         if (isset($sendReport)) {
             $_tempBody = $sendReport;
@@ -2280,7 +2280,7 @@ class SMSCampaignsApi
             );
         }
 
-        // body ?params
+        // body params
         $_tempBody = null;
         if (isset($phoneNumber)) {
             $_tempBody = $phoneNumber;
@@ -2552,7 +2552,7 @@ class SMSCampaignsApi
             );
         }
 
-        // body ?params
+        // body params
         $_tempBody = null;
         if (isset($updateSmsCampaign)) {
             $_tempBody = $updateSmsCampaign;
@@ -2824,7 +2824,7 @@ class SMSCampaignsApi
             );
         }
 
-        // body ?params
+        // body params
         $_tempBody = null;
         if (isset($status)) {
             $_tempBody = $status;

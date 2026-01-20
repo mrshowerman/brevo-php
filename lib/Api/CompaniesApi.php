@@ -266,7 +266,7 @@ class CompaniesApi
 
 
 
-        // body ?params
+        // body params
         $_tempBody = null;
 
         if ($multipart) {
@@ -597,7 +597,7 @@ class CompaniesApi
         }
 
 
-        // body ?params
+        // body params
         $_tempBody = null;
 
         if ($multipart) {
@@ -855,7 +855,7 @@ class CompaniesApi
             );
         }
 
-        // body ?params
+        // body params
         $_tempBody = null;
 
         if ($multipart) {
@@ -1150,7 +1150,7 @@ class CompaniesApi
             );
         }
 
-        // body ?params
+        // body params
         $_tempBody = null;
 
         if ($multipart) {
@@ -1456,7 +1456,7 @@ class CompaniesApi
             );
         }
 
-        // body ?params
+        // body params
         $_tempBody = null;
         if (isset($body)) {
             $_tempBody = $body;
@@ -1720,7 +1720,7 @@ class CompaniesApi
             );
         }
 
-        // body ?params
+        // body params
         $_tempBody = null;
         if (isset($body)) {
             $_tempBody = $body;
@@ -1994,7 +1994,7 @@ class CompaniesApi
 
 
 
-        // body ?params
+        // body params
         $_tempBody = null;
         if (isset($body)) {
             $_tempBody = $body;

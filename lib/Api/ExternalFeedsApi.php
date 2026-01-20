@@ -285,7 +285,7 @@ class ExternalFeedsApi
 
 
 
-        // body ?params
+        // body params
         $_tempBody = null;
         if (isset($createExternalFeed)) {
             $_tempBody = $createExternalFeed;
@@ -546,7 +546,7 @@ class ExternalFeedsApi
             );
         }
 
-        // body ?params
+        // body params
         $_tempBody = null;
 
         if ($multipart) {
@@ -892,7 +892,7 @@ class ExternalFeedsApi
         }
 
 
-        // body ?params
+        // body params
         $_tempBody = null;
 
         if ($multipart) {
@@ -1187,7 +1187,7 @@ class ExternalFeedsApi
             );
         }
 
-        // body ?params
+        // body params
         $_tempBody = null;
 
         if ($multipart) {
@@ -1456,7 +1456,7 @@ class ExternalFeedsApi
             );
         }
 
-        // body ?params
+        // body params
         $_tempBody = null;
         if (isset($updateExternalFeed)) {
             $_tempBody = $updateExternalFeed;

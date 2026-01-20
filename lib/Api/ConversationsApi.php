@@ -248,7 +248,7 @@ class ConversationsApi
 
 
 
-        // body ?params
+        // body params
         $_tempBody = null;
         if (isset($body)) {
             $_tempBody = $body;
@@ -509,7 +509,7 @@ class ConversationsApi
             );
         }
 
-        // body ?params
+        // body params
         $_tempBody = null;
 
         if ($multipart) {
@@ -804,7 +804,7 @@ class ConversationsApi
             );
         }
 
-        // body ?params
+        // body params
         $_tempBody = null;
 
         if ($multipart) {
@@ -1104,7 +1104,7 @@ class ConversationsApi
             );
         }
 
-        // body ?params
+        // body params
         $_tempBody = null;
         if (isset($body)) {
             $_tempBody = $body;
@@ -1386,7 +1386,7 @@ class ConversationsApi
 
 
 
-        // body ?params
+        // body params
         $_tempBody = null;
         if (isset($body)) {
             $_tempBody = $body;
@@ -1647,7 +1647,7 @@ class ConversationsApi
             );
         }
 
-        // body ?params
+        // body params
         $_tempBody = null;
 
         if ($multipart) {
@@ -1942,7 +1942,7 @@ class ConversationsApi
             );
         }
 
-        // body ?params
+        // body params
         $_tempBody = null;
 
         if ($multipart) {
@@ -2248,7 +2248,7 @@ class ConversationsApi
             );
         }
 
-        // body ?params
+        // body params
         $_tempBody = null;
         if (isset($body)) {
             $_tempBody = $body;
@@ -2530,7 +2530,7 @@ class ConversationsApi
 
 
 
-        // body ?params
+        // body params
         $_tempBody = null;
         if (isset($body)) {
             $_tempBody = $body;

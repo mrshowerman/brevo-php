@@ -256,7 +256,7 @@ class EventsApi
 
 
 
-        // body ?params
+        // body params
         $_tempBody = null;
         if (isset($event)) {
             $_tempBody = $event;

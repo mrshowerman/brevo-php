@@ -285,7 +285,7 @@ class FoldersApi
 
 
 
-        // body ?params
+        // body params
         $_tempBody = null;
         if (isset($createFolder)) {
             $_tempBody = $createFolder;
@@ -546,7 +546,7 @@ class FoldersApi
             );
         }
 
-        // body ?params
+        // body params
         $_tempBody = null;
 
         if ($multipart) {
@@ -841,7 +841,7 @@ class FoldersApi
             );
         }
 
-        // body ?params
+        // body params
         $_tempBody = null;
 
         if ($multipart) {
@@ -1167,7 +1167,7 @@ class FoldersApi
             );
         }
 
-        // body ?params
+        // body params
         $_tempBody = null;
 
         if ($multipart) {
@@ -1478,7 +1478,7 @@ class FoldersApi
         }
 
 
-        // body ?params
+        // body params
         $_tempBody = null;
 
         if ($multipart) {
@@ -1747,7 +1747,7 @@ class FoldersApi
             );
         }
 
-        // body ?params
+        // body params
         $_tempBody = null;
         if (isset($updateFolder)) {
             $_tempBody = $updateFolder;

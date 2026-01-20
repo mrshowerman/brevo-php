@@ -284,7 +284,7 @@ class EmailCampaignsApi
 
 
 
-        // body ?params
+        // body params
         $_tempBody = null;
         if (isset($body)) {
             $_tempBody = $body;
@@ -538,7 +538,7 @@ class EmailCampaignsApi
             );
         }
 
-        // body ?params
+        // body params
         $_tempBody = null;
 
         if ($multipart) {
@@ -831,7 +831,7 @@ class EmailCampaignsApi
             );
         }
 
-        // body ?params
+        // body params
         $_tempBody = null;
         if (isset($body)) {
             $_tempBody = $body;
@@ -1130,7 +1130,7 @@ class EmailCampaignsApi
             );
         }
 
-        // body ?params
+        // body params
         $_tempBody = null;
 
         if ($multipart) {
@@ -1427,7 +1427,7 @@ class EmailCampaignsApi
             );
         }
 
-        // body ?params
+        // body params
         $_tempBody = null;
 
         if ($multipart) {
@@ -1769,7 +1769,7 @@ class EmailCampaignsApi
         }
 
 
-        // body ?params
+        // body params
         $_tempBody = null;
 
         if ($multipart) {
@@ -2057,7 +2057,7 @@ class EmailCampaignsApi
             );
         }
 
-        // body ?params
+        // body params
         $_tempBody = null;
 
         if ($multipart) {
@@ -2316,7 +2316,7 @@ class EmailCampaignsApi
             );
         }
 
-        // body ?params
+        // body params
         $_tempBody = null;
 
         if ($multipart) {
@@ -2578,7 +2578,7 @@ class EmailCampaignsApi
             );
         }
 
-        // body ?params
+        // body params
         $_tempBody = null;
         if (isset($body)) {
             $_tempBody = $body;
@@ -2843,7 +2843,7 @@ class EmailCampaignsApi
             );
         }
 
-        // body ?params
+        // body params
         $_tempBody = null;
         if (isset($body)) {
             $_tempBody = $body;
@@ -3108,7 +3108,7 @@ class EmailCampaignsApi
             );
         }
 
-        // body ?params
+        // body params
         $_tempBody = null;
         if (isset($body)) {
             $_tempBody = $body;
@@ -3373,7 +3373,7 @@ class EmailCampaignsApi
             );
         }
 
-        // body ?params
+        // body params
         $_tempBody = null;
         if (isset($body)) {
             $_tempBody = $body;
@@ -3648,7 +3648,7 @@ class EmailCampaignsApi
 
 
 
-        // body ?params
+        // body params
         $_tempBody = null;
         if (isset($body)) {
             $_tempBody = $body;

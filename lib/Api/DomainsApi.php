@@ -301,7 +301,7 @@ class DomainsApi
             );
         }
 
-        // body ?params
+        // body params
         $_tempBody = null;
 
         if ($multipart) {
@@ -574,7 +574,7 @@ class DomainsApi
 
 
 
-        // body ?params
+        // body params
         $_tempBody = null;
         if (isset($domainName)) {
             $_tempBody = $domainName;
@@ -835,7 +835,7 @@ class DomainsApi
             );
         }
 
-        // body ?params
+        // body params
         $_tempBody = null;
 
         if ($multipart) {
@@ -1130,7 +1130,7 @@ class DomainsApi
             );
         }
 
-        // body ?params
+        // body params
         $_tempBody = null;
 
         if ($multipart) {
@@ -1398,7 +1398,7 @@ class DomainsApi
 
 
 
-        // body ?params
+        // body params
         $_tempBody = null;
 
         if ($multipart) {

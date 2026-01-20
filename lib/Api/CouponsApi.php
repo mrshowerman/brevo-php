@@ -293,7 +293,7 @@ class CouponsApi
 
 
 
-        // body ?params
+        // body params
         $_tempBody = null;
         if (isset($createCouponCollection)) {
             $_tempBody = $createCouponCollection;
@@ -554,7 +554,7 @@ class CouponsApi
 
 
 
-        // body ?params
+        // body params
         $_tempBody = null;
         if (isset($createCoupons)) {
             $_tempBody = $createCoupons;
@@ -860,7 +860,7 @@ class CouponsApi
             );
         }
 
-        // body ?params
+        // body params
         $_tempBody = null;
 
         if ($multipart) {
@@ -1182,7 +1182,7 @@ class CouponsApi
         }
 
 
-        // body ?params
+        // body params
         $_tempBody = null;
 
         if ($multipart) {
@@ -1488,7 +1488,7 @@ class CouponsApi
             );
         }
 
-        // body ?params
+        // body params
         $_tempBody = null;
         if (isset($updateCouponCollection)) {
             $_tempBody = $updateCouponCollection;
